@@ -1,0 +1,44 @@
+# ========================
+# 1. PYTHON CORE
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ========================
+# 2. ENVIRONMENTS & SECRETS
+# ========================
+.env
+.venv/
+env/
+venv/
+ENV/
+*secret*.json
+*api_keys*.json
+
+# ========================
+# 3. TRADING DATA & LOGS
+# ========================
+data/
+*.csv
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+logs/
+*.log
+reports/
+
+# ========================
+# 4. TESTING & IDEs
+# ========================
+.pytest_cache/
+.coverage
+htmlcov/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+.ipynb_checkpoints/
