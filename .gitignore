@@ -1,44 +1,33 @@
-# ========================
-# 1. PYTHON CORE
-# ========================
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
 
-# ========================
-# 2. ENVIRONMENTS & SECRETS
-# ========================
+# Virtual Environments
 .env
-.venv/
+.venv
 env/
 venv/
 ENV/
-*secret*.json
-*api_keys*.json
+env.bak/
+venv.bak/
 
-# ========================
-# 3. TRADING DATA & LOGS
-# ========================
-data/
-*.csv
-*.parquet
-*.db
-*.sqlite
-*.sqlite3
-logs/
+# Logs
 *.log
-reports/
 
-# ========================
-# 4. TESTING & IDEs
-# ========================
+# Type checking und Test Caches
+.mypy_cache/
 .pytest_cache/
-.coverage
-htmlcov/
-.vscode/
+.hypothesis/
+
+# IDEs und Editoren
 .idea/
+.vscode/
 *.swp
 *.swo
 .DS_Store
-.ipynb_checkpoints/
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage.xml
