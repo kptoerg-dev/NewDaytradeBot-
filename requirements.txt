@@ -1,3 +1,8 @@
-# Quantitative Event-Driven Trading Engine
-# Die Engine nutzt exklusiv die Python-Standardbibliothek (dataclasses, typing, enum, math).
-# Es werden keine externen Dependencies benötigt.
+# Optional, aber zwingend für die Property-Based Invarianten-Tests
+hypothesis>=6.82.0
+
+# CI / Entwickler-Tools (optional für den reinen Betrieb)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+flake8>=6.1.0
+mypy>=1.5.1
